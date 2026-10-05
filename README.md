@@ -6,4 +6,4 @@ This repository contains only tester documentation and screenshots made with sam
 
 For feedback, use TestFlight → Pickled → Send Beta Feedback, or Pickled → Settings → Send Feedback. You can also email chuck@rareview.com.
 
-GitHub Pages serves the `main` branch at the repository root. The site is plain HTML/CSS, with no analytics or external scripts.
+GitHub Pages serves the `main` branch at the repository root. The site is plain HTML/CSS with a small local script for the feedback dialog and copy-email button. There are no analytics, external scripts, dependencies, or build step. Typography uses Arial with zero added letter spacing throughout.

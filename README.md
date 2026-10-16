@@ -4,7 +4,7 @@ The current guide lives at **https://dinkish.app/docs**. The product website and
 
 This repository keeps the previous GitHub Pages address working for older app builds and bookmarks. `index.html` redirects to the new guide and preserves old section fragments, which the new site maps to the appropriate article. A visible link and a meta refresh provide a fallback without JavaScript.
 
-GitHub Pages serves `main` at the repository root. Historical documentation and sample screenshots remain available in Git history and the existing assets folder. Do not resume editing guide content here; update the Blot website instead.
+GitHub Pages serves `main` at the repository root. Historical documentation and sample screenshots remain available in Git history. The working tree contains only the redirect and its logo; no duplicate guide is maintained here. Do not resume editing guide content here; update the Blot website instead.
 
 Website source is in the Dinkish Blot checkout (`Documents/GitHub/dinkish`): `.site/docs/` for guide pages, `.site/releases.json` for public release notes, and `.site/README.md` for the publishing workflow. Build with `python3 .site/build.py`, review, then commit and push to Blot.
 

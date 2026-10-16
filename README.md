@@ -1,9 +1,11 @@
-# Pickled field guide
+# Dinkish guide redirect
 
-[Read the guide](https://chuckpearson.github.io/pickled-guide/) for the Pickled Apple Watch and iPhone TestFlight beta.
+The current guide lives at **https://dinkish.app/docs**. The product website and public beta changelog live at https://dinkish.app and https://dinkish.app/changelog.
 
-This repository contains only tester documentation and screenshots made with sample data. App source and tester records are not included.
+This repository keeps the previous GitHub Pages address working for older app builds and bookmarks. `index.html` redirects to the new guide and preserves old section fragments, which the new site maps to the appropriate article. A visible link and a meta refresh provide a fallback without JavaScript.
 
-For feedback, use the [Pickled feedback form](https://tally.so/r/QK6rl8) or TestFlight → Pickled → Send Beta Feedback. The form accepts optional screenshots and reply details without publishing a support email address.
+GitHub Pages serves `main` at the repository root. Historical documentation and sample screenshots remain available in Git history and the existing assets folder. Do not resume editing guide content here; update the Blot website instead.
 
-GitHub Pages serves the `main` branch at the repository root. The site is plain HTML/CSS. Send feedback links to the hosted Tally form. There are no analytics, external scripts, dependencies, or build step. Typography uses Arial with zero added letter spacing throughout.
+Website source is in the Dinkish Blot checkout (`Documents/GitHub/dinkish`): `.site/docs/` for guide pages, `.site/releases.json` for public release notes, and `.site/README.md` for the publishing workflow. Build with `python3 .site/build.py`, review, then commit and push to Blot.
+
+For feedback, use the [Dinkish feedback form](https://tally.so/r/QK6rl8) or TestFlight → Dinkish → Send Beta Feedback. No app source, credentials, tester records, or personal Health data belong in this public repository.
